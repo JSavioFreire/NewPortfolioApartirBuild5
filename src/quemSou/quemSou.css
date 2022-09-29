@@ -1,0 +1,51 @@
+.quemSou{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    color: rgb(44, 42, 42);
+}
+
+.quemSou .flex{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+.quemSou > h1{
+    margin-left: 120px;
+}
+.quemSou .flex .sobre{
+    width: 700px;
+    text-indent: 20px;
+}
+.quemSou .flex .sobre p{
+    text-align: justify;
+}
+.quemSou .foto img{
+    width: 180px;
+    justify-content: center;
+}
+@media screen and (max-width:1000px) {
+    .quemSou{
+        margin-top: -50px;
+    }
+    .quemSou .flex{
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+    .quemSou .flex .foto{
+        text-align: right;
+        margin-right: 10px;
+        
+    }
+    .quemSou .flex .sobre{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .quemSou > h1{
+        position: relative;
+        top: 100px;
+        left: 30px;
+        margin: 0;
+    }
+
+}

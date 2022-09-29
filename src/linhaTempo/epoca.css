@@ -1,0 +1,90 @@
+ .epoca{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px auto;
+    animation: aparecerEpoca 0.5s;
+}
+.epoca2{
+    width: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 80px auto;
+    animation: aparecerEpoca2 0.5s;
+}
+.epoca,.epoca2 svg{
+    color: white;
+    font-size: 20px;
+}
+.sumidoEpoca{
+    position: relative;
+    left: 0;
+    opacity: 0;
+}
+.sumidoEpoca2{
+    position: relative;
+    right: 0;
+    opacity: 0;
+}
+
+@keyframes aparecerEpoca {
+    0%{
+        margin-top: 40px;
+        opacity: 0;
+        position: relative;
+        left: -500px;
+    }
+    100%{
+        margin-top: 40px;
+        opacity: 1;
+        position: relative;
+        left: 0;
+
+    }
+}
+
+@keyframes aparecerEpoca2 {
+    0%{
+        margin-top: 40px;
+        opacity: 0;
+        position: relative;
+        right: -500px;
+    }
+    100%{
+        margin-top: 80px;
+        opacity: 1;
+        position: relative;
+        right: 0;
+
+    }
+}
+
+.text{
+    width: 180px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    color: rgb(28, 28, 28);
+    font-size: 14px;
+    
+}
+.bola{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    transform: translateX(-50%);
+
+}
+.img{
+    width: 180px;
+}
+.img img{
+    border-radius: 20px;
+    width: 100%;
+}

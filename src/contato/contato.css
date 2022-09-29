@@ -1,0 +1,24 @@
+.contato{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(51, 51, 51);
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.contato .direitos{
+    text-align: center;
+}
+.contato .redes {
+    display: flex;
+    width: 245px;
+    margin: auto;
+}
+.contato a{
+    color: white;
+
+}
+.contato svg{
+    width: 50px;
+    height: 50px;
+}

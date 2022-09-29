@@ -1,0 +1,71 @@
+.ativar{
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(48, 44, 44, 0.495);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    animation: descer 0.5s;
+}
+.ativar .left{
+    margin-left: 50px;
+    border: 2px solid white;
+    padding: 0 20px;
+    text-align: center;
+    height: 65px;
+    margin-top: 7.5px;
+}
+.ativar .left h1{
+    font-weight: 300;
+}
+.ativar .left p{
+    font-size: 14px;
+    margin-top: -8px;
+}
+.ativar a{
+    color: white;
+    text-decoration: none; 
+}
+.desativo{
+    display: none;
+}
+.ativar .right{
+    width: 40%;
+}
+.ativar .right ul{
+    display: flex;
+    line-height: 80px;
+    margin-right: 50px;
+    justify-content: space-around;    
+}
+.ativar .right ul li{
+    cursor: pointer;
+    color: rgb(212, 212, 212);
+    transition: 0.5s;
+}
+.ativar .right ul li:hover{
+    color: white;  
+}
+@keyframes descer {
+    0%{
+        top:-80px
+    }
+    100%{
+        top:0
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .ativar .left{
+        margin-left: 10px;
+        padding: 0 20px;
+        
+    }
+    .ativar .right{
+        display: none;
+    }
+}

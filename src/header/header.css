@@ -1,0 +1,71 @@
+.header{
+    height: 100vh;
+    width: 100vw;
+} 
+.header .center{
+    color: white;
+    font-size: 25px;
+    transform: translateY(-30%);
+    text-align: center;
+    height: 200px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.495);
+}
+.header a{
+    color: white;
+}
+.header .nome{
+    border: 5px solid white;
+    padding: 15px 105px;
+    margin: 0 ;
+}
+.header .nome h1{
+    font-weight: 400;
+    margin: -15px 0;
+}
+.header .nome p{
+    font-weight: 100;
+
+    
+}
+.header .icons{
+    display: flex;
+    justify-content: center;
+}
+.header .icons div p{
+    display: none;
+}
+.header .icons div .apareceP{
+    position: absolute;
+    display: block;
+    margin-top: -5px; 
+    margin-left: -8px;
+    text-align: center;
+    background-color: #413f3f;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.header svg{
+    width: 35px;
+    height: 35px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .header .nome{
+        padding: 15px 25px;
+    }
+}

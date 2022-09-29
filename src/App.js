@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './header/Header'
+import QuemSou from './quemSou/quemSou'
+import TituloLinhaTempo from './tituloLinhaTempo/tituloLinhaTempo'
+import LinhaTempo from './linhaTempo/linhaTempo'
+import Menu from './menu/menu'
+import Contato from './contato/contato'
+import MenuMobile from './menuMobile/menuMobile'
+import Inicio from './header/inicio'
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Inicio/>
+      <Menu/>
+      <MenuMobile />
+      <Header />
+      <QuemSou />
+      <TituloLinhaTempo />
+      <LinhaTempo />
+      <Contato />
     </div>
   );
 }
 
-export default App;
+
