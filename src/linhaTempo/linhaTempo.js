@@ -24,6 +24,8 @@ import casei from '../foto/casei.jpg'
 import danki from '../foto/danki.png'
 import mae from '../foto/mae.jpg'
 import primeiroP from '../foto/primeiroP.png'
+import sp from '../foto/2p.png'
+import workana from '../foto/workana.png'
 
 export default function LinhaTempo(){
 
@@ -70,11 +72,11 @@ export default function LinhaTempo(){
 
             <Epoca class={aparecerLinhaTempo ? 'epoca2' : 'sumidoEpoca2'} ano='Ago/2022' sobre='Aprendi JavaScript com o curso de JavaScript Puro da DankiCode' img={js}/>
 
-                <MiniEpoca icons=<AiOutlineLaptop/> class='certificadoJs' />
+                <MiniEpoca icons=<RiPagesLine/> titulo='Criei meu Segundo Site' sobre='Comecei a aprender um pouco mais e decidi criar um novo portfólio' img={sp} link=<a href='https://jsaviofreire.github.io/portfolio/' target='_blank' >https://jsaviofreire.github.io/portfolio/</a> />
 
             <Epoca class={aparecerLinhaTempo ? 'epoca' : 'sumidoEpoca'} ano='Set/2022' sobre='Foi amor a primeira vista quando comecei a aprender ReactJs, realizei o curso de ReactJs da DankiCode' img={react}/>
 
-                <MiniEpoca icons=<AiOutlineLaptop/> class='certificadoReact' />
+                <MiniEpoca icons=<AiOutlineLaptop/> titulo='Trabalhos Freelancer' sobre='Criei minha conta no Workana e conseguir alguns trabalhos por lá, adquiri muita experiência nesses projetinhos.' img={workana} />
             
             
             

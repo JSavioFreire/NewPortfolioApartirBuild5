@@ -9,8 +9,8 @@
 }
 .linhaTempo .linha{
     width: 10px;
-    height: 92%;
-    background-color: #202020;
+    height: 100%;
+    background-color: rgb(51, 51, 51);
     position: absolute;
     left: 50%;
     top:50px;
@@ -18,7 +18,7 @@
     margin-top: 50px;
     animation: piscaLinha 1s infinite;
     animation: linhaPisca 1s;
-    z-index: 1;
+
     
 }
 .linhaApagada{
