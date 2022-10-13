@@ -4,7 +4,7 @@
     width: 100%;
     background-color: rgba(48, 44, 44, 0.495);
     backdrop-filter: blur(5px);
-    z-index: 1;
+    z-index: 3;
     display: flex;
     color: white;
     justify-content: space-between;

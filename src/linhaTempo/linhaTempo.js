@@ -20,8 +20,9 @@ import htmlCss from '../foto/htmlCss.jpg'
 import js from '../foto/javascript.png'
 import react from '../foto/react.jpg'
 import convertido from '../foto/convertido.jpg'
-import conheci from '../foto/conheciAna.jpg'
+import casei from '../foto/casei.jpg'
 import danki from '../foto/danki.png'
+import mae from '../foto/mae.jpg'
 
 export default function LinhaTempo(){
 
@@ -48,22 +49,22 @@ export default function LinhaTempo(){
 
             <Epoca class={aparecerLinhaTempo ? 'epoca2' : 'sumidoEpoca2'} ano='Jan/2017' sobre='Comecei o curso de Inglês no Cultura Inglesa. Aprendi uma boa base da lingua.' img={ingles}/>    
 
-                <MiniEpoca icons=<GiHeartTower/> class='conversao' titulo='Me Converti' sobre='Mudei muito após esse acontecimento, passei a confiar mais em mim, entendi a importância de ajudar o próximo, me tornei um homem mais focado, determinado e confiante.' img={convertido}/>
+                <MiniEpoca icons=<GiHeartTower/> titulo='Conheci a Deus' sobre='Mudei muito após esse acontecimento, passei a confiar mais em mim, entendi a importância de ajudar o próximo, me tornei um homem mais focado, determinado e confiante.' img={convertido}/>
             <div className='divisor'></div>
 
-                <MiniEpoca icons=<AiFillHeart/> class='casamento' />
+                <MiniEpoca icons=<AiFillHeart/> titulo='Meu Maior Amor' sobre='Conheci o amor da minha vida, a pessoa que mais me incentiva a continuar e sempre olhar para frente. A minha parceira que está comigo em tudo e que eu amo muito.' img={casei}/>
             <div className='divisor'></div>
 
-                <MiniEpoca icons=<BsFlower3/> class='mae' />
+                <MiniEpoca icons=<BsFlower3/> titulo='A minha Maior perca' sobre='Passei pela maior dificuldade da minha vida quando perdi a minha mãe, eu tive a melhor mãe desse mundo. O que me conforta é saber que ela está em um lugar incrivel agora.' img={mae} />
 
             <Epoca class={aparecerLinhaTempo ? 'epoca' : 'sumidoEpoca'} ano='Mar/2022' sobre='Comecei a faculdade de Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá. ' img={estacio}/>
             <Epoca class={aparecerLinhaTempo ? 'epoca2' : 'sumidoEpoca2'} ano='Mai/2022' sobre='Decidi que queria me especializar na área de Desenvolvimento Front-End.' img={front}/>
 
-                <MiniEpoca icons=<AiOutlineLaptop/> class='danki' />
+                <MiniEpoca icons=<AiOutlineLaptop/> titulo='Os Cursos da DankiCode' sobre='Conheci a plataforma de ensino DankiCode, os cursos dele me ajudaram muito nesse mundo da programação.' img={danki} />
 
             <Epoca class={aparecerLinhaTempo ? 'epoca' : 'sumidoEpoca'} ano='Jun/2022' sobre='Aprendi HTML e CSS nas aulas do do Curso em Vídeo e no curso de Front-End na DankiCode' img={htmlCss}/>
             
-                <MiniEpoca icons=<RiPagesLine/> class='primeiroPortfolio' />
+                <MiniEpoca icons=<RiPagesLine/> titulo='Os Cursos da DankiCode' sobre='Conheci a plataforma de ensino DankiCode, os cursos dele me ajudaram muito nesse mundo da programação.' img={danki} />
             
 
             <Epoca class={aparecerLinhaTempo ? 'epoca2' : 'sumidoEpoca2'} ano='Ago/2022' sobre='Aprendi JavaScript com o curso de JavaScript Puro da DankiCode' img={js}/>
