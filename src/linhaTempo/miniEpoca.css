@@ -1,21 +1,43 @@
- .ME{
-    position: absolute;
-    height: 80px;
-    padding: 20px 0 ;
+.ME{
+    height: 300px;
+    width: 90%;
+    padding-top: 30px;
     overflow: hidden;
     left: 50%;
-    transform: translate(-50%,-50%);
+    margin-top: -30px;
+    padding-top: -50px;
+
+
+
+    
+
+}
+.MEMenor{
+
+    height: 80px;
+    width: 90%;
+    padding-top: 30px;
+    overflow: hidden;
+    left: 50%;
+    margin-top: -30px;
+    padding-top: -50px;
+    transition: 1s;
+    z-index: 2;
  }
  .bolinha{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin: 40px auto;
+    margin: 120px auto;
     position: relative;
     margin-top: -20px;
     color: #D0142C;
     background-color: rgb(41, 41, 41);
     cursor: pointer;
+    animation: pulse 5s infinite;
+    transition: 1s;
+
+
 }
 .bolinha svg{
     position: relative;
@@ -30,6 +52,8 @@
     animation: hoverBolinha 0.5s;
     width: 55px;
     height: 55px;
+    margin-top: -30px;
+
     
 
 }
@@ -40,6 +64,9 @@
         height: 40px;
 
     }
+    30%{
+        margin-top: -30px;
+    }
     
     60%{
         width: 60px;
@@ -49,11 +76,89 @@
     100%{
         width: 55px;
         height: 55px;
+        margin-top: -30px;
 
+
+
+    }
+}
+@keyframes pulse{
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform:  scale(1.3);
+    }
+    20% {
+        transform: scale(0.9);
+    }
+    30% {
+        transform:  scale(1.2);
+    }
+    40% {
+        transform:  scale(0.9);
+    }
+    50% {
+        transform:  scale(1.3);
+    
+    }
+    60% {
+        transform:  scale(0.9);
+    }
+    70% {
+        transform:  scale(1.3);
+    }
+    80%{
+        transform: scale(0.8);
+    }
+    90%{
+        transform: scale(1.4);
+    }
+    100% {
+        transform:  scale(1);
+   
     }
 }
 
 
 .divisor{
     height: 60px;
+}
+
+.modal{
+    transition: 1s;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.janelaModal{
+    background-color: rgb(38, 37, 37);
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    transition: 1s;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+
+}
+.MEEscrito{
+    width: 50%;
+    color: white;
+}
+.MEFoto{
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MEFoto img{
+    width: 80%;
+    height: 100%;
+    border: 2px solid white;
+
 }

@@ -48,6 +48,8 @@
 }
 .ativar .right ul li:hover{
     color: white;  
+    font-size: 18px;
+    position: relative;
 }
 @keyframes descer {
     0%{
