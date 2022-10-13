@@ -35,7 +35,8 @@ else if(modal==true){
                 <div className='janelaModal'>
                     <div className='MEEscrito'>
                         <h1 className='METitulo'>{props.titulo}</h1>
-                        <p className='MESobre'>{props.sobre}</p>
+                        <p className='MESobre'>{props.sobre} </p>
+                        <p className='MELink'>{props.link}</p>
                     </div>
                     <div className='MEFoto'>
                         <img src={props.img}/>

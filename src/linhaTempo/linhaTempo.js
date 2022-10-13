@@ -23,6 +23,7 @@ import convertido from '../foto/convertido.jpg'
 import casei from '../foto/casei.jpg'
 import danki from '../foto/danki.png'
 import mae from '../foto/mae.jpg'
+import primeiroP from '../foto/primeiroP.png'
 
 export default function LinhaTempo(){
 
@@ -64,7 +65,7 @@ export default function LinhaTempo(){
 
             <Epoca class={aparecerLinhaTempo ? 'epoca' : 'sumidoEpoca'} ano='Jun/2022' sobre='Aprendi HTML e CSS nas aulas do do Curso em Vídeo e no curso de Front-End na DankiCode' img={htmlCss}/>
             
-                <MiniEpoca icons=<RiPagesLine/> titulo='Os Cursos da DankiCode' sobre='Conheci a plataforma de ensino DankiCode, os cursos dele me ajudaram muito nesse mundo da programação.' img={danki} />
+                <MiniEpoca icons=<RiPagesLine/> titulo='Criei meu Primeiro Site' sobre='Criei um Portfólio simples, foi a minha primeira experiência de criar um site do zero sozinho.' img={primeiroP} link=<a href='https://jsaviofreire.github.io/Portfolio_em_producao/' target='_blank' >https://jsaviofreire.github.io/Portfolio_em_producao/</a> />
             
 
             <Epoca class={aparecerLinhaTempo ? 'epoca2' : 'sumidoEpoca2'} ano='Ago/2022' sobre='Aprendi JavaScript com o curso de JavaScript Puro da DankiCode' img={js}/>
