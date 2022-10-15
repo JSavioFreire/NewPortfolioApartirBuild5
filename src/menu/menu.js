@@ -27,6 +27,7 @@ export default function Menu(){
                     <li><a href="#inicio">Home</a></li>
                     <li><a href="#quemSou">Sobre</a></li>
                     <li><a href="#linhaTempo">Linha do Tempo</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </div>

@@ -1,0 +1,9 @@
+.construcao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.construcao img{
+    width: 40%;
+}

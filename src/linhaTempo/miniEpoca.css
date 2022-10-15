@@ -16,9 +16,17 @@
     padding-top: 50px;
     overflow: hidden;
     left: 50%;
-
     transition: 1s;
     z-index: 2;
+ }
+ .MEMenor h2{
+    position: absolute;
+    left: 50%;
+    font-size: 15px;
+    color: #D0142C;
+    margin-top: 10px;
+    font-weight: 900;
+    transform: translateX(-50%);
  }
  .bolinha{
     width: 40px;

@@ -23,6 +23,7 @@ export default function MiniEpoca(props){
 if(modal==false){
     return(
         <div className='MEMenor'>
+            <h2>Clique aqui</h2>
             <div className='bolinha' onClick={setarTrue}>
                 {props.icons}
             </div>
