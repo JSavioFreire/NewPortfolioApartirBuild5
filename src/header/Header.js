@@ -2,6 +2,7 @@ import './header.css'
 import '../gradient/gradient.css'
 
 import { AiFillGithub,AiFillLinkedin,AiOutlineInstagram,AiOutlineWhatsApp } from 'react-icons/ai';
+import {RiArrowDownSLine} from 'react-icons/ri'
 import {FiMail} from 'react-icons/fi'
 import { useEffect } from 'react';
 
@@ -57,6 +58,9 @@ export default function Header(){
                             <p>freiresavio7@gmail.com</p>
                         </div>
                     </div>
+                </div>
+                <div className='setaHeader'>
+                    <RiArrowDownSLine/>
                 </div>
             </div>
         </div> 
