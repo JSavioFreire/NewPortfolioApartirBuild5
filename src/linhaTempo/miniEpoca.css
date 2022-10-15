@@ -22,11 +22,11 @@
  .MEMenor h2{
     position: absolute;
     left: 50%;
-    font-size: 15px;
+    opacity: 0;
     color: #D0142C;
     margin-top: 10px;
-    font-weight: 900;
     transform: translateX(-50%);
+    animation: cliquePalavra 5s infinite;
  }
  .bolinha{
     width: 40px;
@@ -58,6 +58,21 @@
 
     
 
+}
+@keyframes cliquePalavra {
+    0%,100%{
+        opacity: 0;
+        font-size: 13px;
+        font-weight: 400;
+
+    }
+    
+    50%{
+        opacity: 1;
+        font-size: 17px;
+        font-weight: 600;
+
+    }
 }
 
 @keyframes hoverBolinha {
