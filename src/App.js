@@ -6,6 +6,8 @@ import Menu from './menu/menu'
 import Contato from './contato/contato'
 import MenuMobile from './menuMobile/menuMobile'
 import Inicio from './header/inicio'
+import TituloPortfolio from './tituloPortfolio/tituloPortfolio'
+import Portfolio from './portfolio/portfolio'
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
       <QuemSou />
       <TituloLinhaTempo />
       <LinhaTempo />
+      <TituloPortfolio />
+      <Portfolio />
       <Contato />
     </div>
   );
