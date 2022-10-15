@@ -7,13 +7,11 @@ export default function MiniEpoca(props){
 
     const [modal,setModal] = useState(false)
 
-    const setarTrue = (e)=>{
-        e.preventDefault();
+    const setarTrue = ()=>{
         setModal(true)
         
     }
-    const setarFalse = (e)=>{
-        e.preventDefault();
+    const setarFalse = ()=>{
         setModal(false)
         
 
