@@ -19,15 +19,7 @@
     transition: 1s;
     z-index: 2;
  }
- .MEMenor h2{
-    position: absolute;
-    left: 50%;
-    opacity: 0;
-    color: #D0142C;
-    margin-top: 10px;
-    transform: translateX(-50%);
-    animation: cliquePalavra 5s infinite;
- }
+
  .bolinha{
     width: 40px;
     height: 40px;
@@ -59,22 +51,43 @@
     
 
 }
-@keyframes cliquePalavra {
-    0%,100%{
-        opacity: 0;
-        font-size: 13px;
-        font-weight: 400;
+.pointer{
+    position: absolute;
+    left: 55%;
+    margin-top:60px ;
+    z-index: 5;
+    transform: translate(-50%,-50%);
+    animation: pointer 4s infinite;
+    cursor: pointer ;
 
-    }
     
-    50%{
-        opacity: 1;
-        font-size: 17px;
-        font-weight: 600;
-
-    }
+}
+.pointer img{
+    width: 30px;
 }
 
+@keyframes pointer{
+    0%{
+        opacity: 0;
+        left: 55%;
+        margin-top:60px ;
+    }
+    30%{
+        opacity: 1;
+    }
+    70%{
+        left: 50%;
+        margin-top: 0;
+    }
+    95%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 0;
+        left: 50%;
+        margin-top: 0;
+    }
+}
 @keyframes hoverBolinha {
     0%{
         width: 40px;

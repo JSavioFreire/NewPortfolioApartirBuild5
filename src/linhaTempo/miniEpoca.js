@@ -1,6 +1,7 @@
 import './miniEpoca.css'
 import '../gradient/gradient.css'
 import { useState } from 'react';
+import cursor from '../foto/cursor.png'
 
 
 export default function MiniEpoca(props){
@@ -23,7 +24,7 @@ export default function MiniEpoca(props){
 if(modal==false){
     return(
         <div className='MEMenor'>
-            <h2>Clique aqui</h2>
+            <div className='pointer' onClick={setarTrue}><img src={cursor}/></div>
             <div className='bolinha' onClick={setarTrue}>
                 {props.icons}
             </div>
